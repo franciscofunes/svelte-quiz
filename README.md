@@ -10,5 +10,3 @@ I Created a Svelte Quiz for studying networks in Argentina
 - Build the app using `npm run build`
 
 ## Checkout the live [demo]()
-
- tab.
