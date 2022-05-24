@@ -38,85 +38,75 @@
             ]
         },
         {
-            "category": "Entertainment: Video Games",
+            "category": "redes",
             "type": "multiple",
             "difficulty": "hard",
-            "question": "In &quot;Sonic the Hedgehog 2&quot; for the Sega Genesis, what do you input in the sound test screen to access the secret level select?",
-            "correct_answer": "The Lead Programmer&#039;s birthday",
+            "question": "¿Cuál de las siguientes es la PDU de la capa de transporte?",
+            "correct_answer": "Segmento",
             "incorrect_answers": [
-                "The first release date of &quot;Sonic the Hedgehog&quot;",
-                "The date Sonic Team was founded",
-                "The first release date of &quot;Sonic the Hedgehog 2&quot;"
+                "Trama",
+                "Paquete",
+                "Bits"
             ]
         },
         {
-            "category": "History",
-            "type": "boolean",
-            "difficulty": "medium",
-            "question": "If you grab the bladed end of a longsword in a specific way, you will not cut yourself.",
-            "correct_answer": "True",
-            "incorrect_answers": [
-                "False"
-            ]
-        },
-        {
-            "category": "Entertainment: Film",
+            "category": "redes",
             "type": "multiple",
             "difficulty": "medium",
-            "question": "Who voiced Metalbeard in &quot;The Lego Movie&quot;?",
-            "correct_answer": "Nick Offerman",
+            "question": "¿Cuál es la capa del modelo OSI que proporciona conectividadyselección de rutas entre dos sistemas finales donde se produce el enrutamiento?",
+            "correct_answer": "Red",
             "incorrect_answers": [
-                "Liam Neeson",
-                "Morgan Freeman",
-                "Will Arnet"
+                "Fisica",
+                "Enlace de datos",
+                "Transporte"
             ]
         },
         {
-            "category": "Geography",
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "¿Cuál es la capa del modelo OSI que es responsable de la comunicación de red confiable entre nodos confiables y proporciona mecanismos para establecer,mantener y terminar circuitos virtuales,detección y recuperación de fallas de transporteycontrol de flujo de la información ?",
+            "correct_answer": "Transporte",
+            "incorrect_answers": [
+                "Fisica",
+                "Enlace de datos",
+                "Red"
+            ]
+        },
+        {
+            "category": "redes",
             "type": "multiple",
             "difficulty": "easy",
-            "question": "What is the capital of Spain?",
-            "correct_answer": "Madrid",
+            "question": "¿Cuál de las siguientes opciones describe mejor la función de la capa de presentación?",
+            "correct_answer": "Se ocupa de las estructuras de datosyla sintaxis de transferencia de datos de negociación",
             "incorrect_answers": [
-                "Barcelona",
-                "Sevilla",
-                "Toledo"
+                "Es responsable de la comunicación confiable de red entre nodos finales",
+                "Proporciona conectividad de selección de rutas entre dos sistemas finales.",
+                "Administra el intercambio de datos entre entidades de capas"
             ]
         },
         {
-            "category": "Entertainment: Video Games",
+            "category": "redes",
             "type": "multiple",
             "difficulty": "easy",
-            "question": "Which of the following names is the &quot;Mega Man&quot; Franchise known as in Japan?",
-            "correct_answer": "Rockman",
+            "question": "¿Cuáles son las funciones relacionadas con la capa de enlace de datos?",
+            "correct_answer": "Direccionamiento fisico,Topología de red y acceso a medios",
             "incorrect_answers": [
-                "Paperman",
-                "Scissorsman",
-                "Mega Man"
+                "Administra el intercambio de datos entre entidades de la capa presente",
+                "Sincroniza aplicaciones que cooperan y establecen acuerdos sobre procedimiento para la recuperación de errores y control de la integración de datos",
+                "Proporciona mecanismos para el establecimiento, mantenimiento y terminación de los circuitos virtuales. Detección de fallas de transporte,recuperación y control de la información"
             ]
         },
         {
-            "category": "General Knowledge",
+            "category": "redes",
             "type": "multiple",
             "difficulty": "easy",
-            "question": "When someone is inexperienced they are said to be what color?",
-            "correct_answer": "Green",
+            "question": "¿Cuándo ocurren los bucles?",
+            "correct_answer": "Cuando una computadoraored recibe el tráfico que emite,este problema crea en la red problemas de caudal efectuando con retardosycongestión",
             "incorrect_answers": [
-                "Red",
-                "Blue",
-                "Yellow"
-            ]
-        },
-        {
-            "category": "Science & Nature",
-            "type": "multiple",
-            "difficulty": "hard",
-            "question": "Which of the following elements is typically used in the doping of the semiconductor silicon?",
-            "correct_answer": "Boron",
-            "incorrect_answers": [
-                "Oxygen",
-                "Carbon",
-                "Iron"
+                "Cuando la red está completamente actualizada con todas las rutas activas",
+                "Cuando la red está trasmitiendo más de un flujo de datos hacia un mismo destino",
+                "Cuando un host destino acumula muchos paquetes sin poder procesar"
             ]
         }
     ]
