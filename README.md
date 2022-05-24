@@ -9,4 +9,4 @@ I Created a Svelte Quiz for studying networks in Argentina
 - Run the development version using `npm run dev` and navigate to [localhost:5000](http://localhost:5000)
 - Build the app using `npm run build`
 
-## Checkout the live [demo]()
+## Checkout the live [demo](https://networkquizz.netlify.app/)

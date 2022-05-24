@@ -2,7 +2,7 @@
     "response_code": 0,
     "results": [
         {
-            "category": "network",
+            "category": "networks",
             "type": "multiple",
             "difficulty": "hard",
             "question": "¿Que es un Estándar en una red interoperativa?",
@@ -14,15 +14,15 @@
             ]
         },
         {
-            "category": "Science & Nature",
+            "category": "networks",
             "type": "multiple",
             "difficulty": "hard",
-            "question": "On the Beaufort Scale of wind force, what wind name is given to number 8?",
-            "correct_answer": "Gale",
+            "question": "¿Por qué surgen los estándares en las redes?",
+            "correct_answer": "Para solucionar el problema de incompatibilidad en caso de las redes que no podían comunicarse entre sí.",
             "incorrect_answers": [
-                "Storm",
-                "Hurricane",
-                "Breeze"
+                "Para intercomunicarse entre las PDUs exclusivamente en el modelo OSI",
+                "Para poder entenderse entre el protocolo TCP y UDP.",
+                "Para lograr comprender el funcionamiento de los protocolos específicos de ruteo"
             ]
         },
         {
