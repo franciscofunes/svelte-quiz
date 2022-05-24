@@ -2,11 +2,11 @@
     "response_code": 0,
     "results": [
         {
-            "category": "networks",
+            "category": "redes",
             "type": "multiple",
             "difficulty": "hard",
             "question": "¿Que es un Estándar en una red interoperativa?",
-            "correct_answer": "La normalización de protocolosydispositivos para que pueda ser utilizadaocreada sin ningún inconveniente.",
+            "correct_answer": "La normalización de protocolos y dispositivos para que pueda ser utilizadaocreada sin ningún inconveniente.",
             "incorrect_answers": [
                 "La conexión de redes con un mismo fabricante de hardware",
                 "La interpretación de varios protocolos propietarios de Cisco para dar servicio únicamente en sus plataformas",
@@ -14,7 +14,7 @@
             ]
         },
         {
-            "category": "networks",
+            "category": "redes",
             "type": "multiple",
             "difficulty": "hard",
             "question": "¿Por qué surgen los estándares en las redes?",
@@ -26,15 +26,15 @@
             ]
         },
         {
-            "category": "History",
+            "category": "redes",
             "type": "multiple",
             "difficulty": "medium",
-            "question": "Which dictator killed the most people?",
-            "correct_answer": "Mao Zedong",
+            "question": "¿Cuál es la capa que proporciona envío de datos,clase de servicioyenvío de excepciones?",
+            "correct_answer": "Sesion",
             "incorrect_answers": [
-                "Joseph Stalin",
-                "Adolf Hitler",
-                "Kim Il Sung"
+                "Presentación",
+                "Red",
+                "Enlace de datos"
             ]
         },
         {

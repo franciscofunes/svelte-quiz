@@ -260,10 +260,12 @@
     {#if buttonBarVisibility}
       <div id="button-bar">
         {#if questionNo < 9}
-          <button value="Next" on:click={() => handleClick('f')}>Next</button>
+          <button value="Siguiente" on:click={() => handleClick('f')}>
+            Next
+          </button>
         {/if}
         {#if questionNo > 0}
-          <button value="Back" on:click={() => handleClick('b')}>
+          <button value="Anterior" on:click={() => handleClick('b')}>
             Previous
           </button>
         {/if}
