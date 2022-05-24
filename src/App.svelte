@@ -49,8 +49,4 @@
 
 </main>
 
-<footer>
-  &#x24B8; Manan Joshi. Made with
-  <span style="font-size: 24px; color: red">&#x2764;</span>
-  using Svelte
-</footer>
+<footer>Study Hard using Svelte 🤓</footer>
