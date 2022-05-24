@@ -198,11 +198,11 @@
         dispatch('resultsScreen', { showScore: false });
 
         if (score < 5) {
-          finalMessage = 'Are you on drugs? 😵';
+          finalMessage = 'Bob marley estuvo presente 😵';
         } else if (score === 5) {
-          finalMessage = "Don't give up try harder. 🤓";
+          finalMessage = 'No te desanimes, se fuerte!. 🤓';
         } else {
-          finalMessage = "You're on fire!!! 🔥";
+          finalMessage = 'Estas en llamas!!! 🔥';
         }
       }
 
@@ -215,8 +215,8 @@
 
   {#if representation.length > 0 && !resultsScreen}
     <span id="heading">
-      Question {questionNo + 1}
-      <i id="category">(Category - {representation[questionNo].category})</i>
+      Pregunta {questionNo + 1}
+      <i id="category">(Categoria - {representation[questionNo].category})</i>
     </span>
     <span>{representation[questionNo].question}</span>
     <div id="difficulty">{representation[questionNo].difficulty}</div>
