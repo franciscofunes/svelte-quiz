@@ -53,7 +53,7 @@
             "category": "redes",
             "type": "multiple",
             "difficulty": "medium",
-            "question": "¿Cuál es la capa del modelo OSI que proporciona conectividadyselección de rutas entre dos sistemas finales donde se produce el enrutamiento?",
+            "question": "¿Cuál es la capa del modelo OSI que proporciona conectividad y selección de rutas entre dos sistemas finales donde se produce el enrutamiento?",
             "correct_answer": "Red",
             "incorrect_answers": [
                 "Fisica",
