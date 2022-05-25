@@ -190,15 +190,15 @@
         snackbarMessage = false;
       }
 
-      if (questionNo === 9) {
+      if (questionNo === 27) {
         buttonBarVisibility = false;
         resultsScreen = true;
 
         dispatch('resultsScreen', { showScore: false });
 
-        if (score < 5) {
+        if (score < 10) {
           finalMessage = 'Bob marley estuvo presente 😵';
-        } else if (score === 5) {
+        } else if (score === 15) {
           finalMessage = 'No te desanimes, se fuerte!. 🤓';
         } else {
           finalMessage = 'Estas en llamas!!! 🔥';
@@ -258,7 +258,7 @@
 
     {#if buttonBarVisibility}
       <div id="button-bar">
-        {#if questionNo < 9}
+        {#if questionNo < 27}
           <button value="Next" on:click={() => handleClick('f')}>
             Siguiente
           </button>
@@ -280,7 +280,7 @@
     <div id="results">
       <p id="score">
         Puntaje Final:
-        <i>{score} / 10</i>
+        <i>{score} / 28</i>
       </p>
       <p style="font-size: 24px">
         {@html finalMessage}

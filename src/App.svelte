@@ -35,7 +35,7 @@
   {#if visible}
     <p style="color: white; font-size: 24px">
       Puntaje:
-      <i>{playerScore} / 10</i>
+      <i>{playerScore} / 30</i>
     </p>
   {/if}
 

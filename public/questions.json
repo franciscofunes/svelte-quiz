@@ -4,7 +4,7 @@
         {
             "category": "redes",
             "type": "multiple",
-            "difficulty": "hard",
+            "difficulty": "díficil",
             "question": "¿Que es un Estándar en una red interoperativa?",
             "correct_answer": "La normalización de protocolos y dispositivos para que pueda ser utilizada o creada sin ningún inconveniente.",
             "incorrect_answers": [
@@ -16,7 +16,7 @@
         {
             "category": "redes",
             "type": "multiple",
-            "difficulty": "hard",
+            "difficulty": "díficil",
             "question": "¿Por qué surgen los estándares en las redes?",
             "correct_answer": "Para solucionar el problema de incompatibilidad en caso de las redes que no podían comunicarse entre sí.",
             "incorrect_answers": [
@@ -28,7 +28,7 @@
         {
             "category": "redes",
             "type": "multiple",
-            "difficulty": "medium",
+            "difficulty": "media",
             "question": "¿Cuál es la capa que proporciona envío de datos,clase de servicio y envío de excepciones?",
             "correct_answer": "Sesion",
             "incorrect_answers": [
@@ -40,7 +40,7 @@
         {
             "category": "redes",
             "type": "multiple",
-            "difficulty": "hard",
+            "difficulty": "díficil",
             "question": "¿Cuál de las siguientes es la PDU de la capa de transporte?",
             "correct_answer": "Segmento",
             "incorrect_answers": [
@@ -52,7 +52,7 @@
         {
             "category": "redes",
             "type": "multiple",
-            "difficulty": "medium",
+            "difficulty": "media",
             "question": "¿Cuál es la capa del modelo OSI que proporciona conectividad y selección de rutas entre dos sistemas finales donde se produce el enrutamiento?",
             "correct_answer": "Red",
             "incorrect_answers": [
@@ -64,7 +64,7 @@
         {
             "category": "redes",
             "type": "multiple",
-            "difficulty": "medium",
+            "difficulty": "Media",
             "question": "¿Cuál es la capa del modelo OSI que es responsable de la comunicación de red confiable entre nodos confiables y proporciona mecanismos para establecer,mantener y terminar circuitos virtuales,detección y recuperación de fallas de transporte y control de flujo de la información ?",
             "correct_answer": "Transporte",
             "incorrect_answers": [
@@ -76,7 +76,7 @@
         {
             "category": "redes",
             "type": "multiple",
-            "difficulty": "easy",
+            "difficulty": "fácil",
             "question": "¿Cuál de las siguientes opciones describe mejor la función de la capa de presentación?",
             "correct_answer": "Se ocupa de las estructuras de datos y la sintaxis de transferencia de datos de negociación",
             "incorrect_answers": [
@@ -88,7 +88,7 @@
         {
             "category": "redes",
             "type": "multiple",
-            "difficulty": "easy",
+            "difficulty": "fácil",
             "question": "¿Cuáles son las funciones relacionadas con la capa de enlace de datos?",
             "correct_answer": "Direccionamiento fisico, topología de red y acceso a medios",
             "incorrect_answers": [
@@ -100,7 +100,7 @@
         {
             "category": "redes",
             "type": "multiple",
-            "difficulty": "easy",
+            "difficulty": "fácil",
             "question": "¿Cuándo ocurren los bucles?",
             "correct_answer": "Cuando una computadora o red recibe el tráfico que emite,este problema crea en la red problemas de caudal efectuando con retardos y congestión",
             "incorrect_answers": [
@@ -109,16 +109,236 @@
                 "Cuando un host destino acumula muchos paquetes sin poder procesar"
             ]
         },
-{
+        {
             "category": "redes",
             "type": "multiple",
-            "difficulty": "easy",
-            "question": "¿Cuándo ocurren los bucles?",
-            "correct_answer": "Cuando una computadoraored recibe el tráfico que emite,este problema crea en la red problemas de caudal efectuando con retardos y congestión",
+            "difficulty": "fácil",
+            "question": "¿Cuál de las siguientes afirmaciones con respectoaTCP/IP es correcta?",
+            "correct_answer": "Combina la capa de enlace de datos y la capa fisica del modelo OSI en una sola capa",
             "incorrect_answers": [
-                "Cuando la red está completamente actualizada con todas las rutas activas",
-                "Cuando la red está trasmitiendo más de un flujo de datos hacia un mismo destino",
-                "Cuando un host destino acumula muchos paquetes sin poder procesar"
+                "Combina las funciones de la capa de enlace de datos y de sesión del modelo OSI en una capa de aplicación",
+                "Combina la capa de red y aplicación del modelo OSI en una sola capa",
+                "Combina las cuatro capas inferiores del modelo OSI en una sola capa, la capa de internet"
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "¿Cuál de las siguientes capas del modelo OSI encapsula los paquetes en tramas?",
+            "correct_answer": "Enlace de datos",
+            "incorrect_answers": [
+                "Red",
+                "Transporte",
+                "Sesión"
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "En el modelo TCP/IP, ¿Cuál es la capa que ocupa la confiabilidad,control de flujo y corrección de errores?",
+            "correct_answer": "Transporte",
+            "incorrect_answers": [
+                "Aplicación",
+                "Internet",
+                "Acceso"
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "¿Cuáles son los identificadores en la encapsulación de las PDUs por cada capa del modelo OSI? Ordénelo desde la capa superiorala inferior.",
+            "correct_answer": "Datos.Datos.Datos Segmentos.Paquetes.Tramas.Bits",
+            "incorrect_answers": [
+                "Bits.Tramas.Paquetes.Datos.Segmento.Datos.Datos.Datos",
+                "Paquetes.Tramas.Segmentos.Datos.Datos.Datos.Bits",
+                "Datos Datos.Datos Paquetes.Segmentos.Trama.Bits"
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "Secuencia de funcionamiento DHCP (indique la correcta)",
+            "correct_answer": "discovery=>offer=>request=>acknowledge",
+            "incorrect_answers": [
+                "offer=>discovery=>request=>acknowledge",
+                "request=>discovery=>acknowledge=>offer",
+                "acknowledge=>discovery=>offer=>request"
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "Indique el Puerto utilizado por el servidor DHCP",
+            "correct_answer": "67",
+            "incorrect_answers": [
+                "69",
+                "68",
+                "66"
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "Seleccione la respuesta correcta de la siguiente definición:Es el paquete de respuesta del Servidor DHCPaun cliente DHCP ante su petición de la asignación de los parámetros DHCP.Para ello involucra su dirección MAC(Media Access Control)para su presentacióneinicio de transferencia de modo seguro.",
+            "correct_answer": "DHCP OFFER",
+            "incorrect_answers": [
+                "DHCP REQUEST",
+                "DHCP DISCOVERY",
+                "DHCP ACKNOWLEDGE"
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "Los protocolos de Capa están diseñados principalmente para mover datos desde una red localaotra red local dentro de una internetwork.Complete con la respuesta correcta.",
+            "correct_answer": "Capa3(red)",
+            "incorrect_answers": [
+                "Capa4(transporte)",
+                "Capa2(enlace de datos)",
+                "Capa1(fisica)"
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "UDP(protocolo de datagramas de usuario)permite ...",
+            "correct_answer": "Transmisión de datos sin conexión en redes basadas en IP.",
+            "incorrect_answers": [
+                "Enlaza una MAC con un servidor DHCP",
+                "Permite que 2 o más hosts se conectenen intercambien flujos de datos de forma segura",
+                "Dar servicio a servicio de NAT para diferentes redesatravés de internetwork"
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "Cuales capas del modelo OSI son las equivalentesala capa Física del modelo TCP/IP? (pueden ser varias correctas).",
+            "correct_answer": [
+                "Fisica y enlace de datos"
+            ],
+            "incorrect_answers": [
+                "Internet y transporte",
+                "Transporte y red",
+                "Fisica y presentacion",
+                "Presentación y sesion"
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "_________ admite el reenvio de un segmento de comunicación entre distintos dispositivos de distintas redes ..",
+            "correct_answer": "Transporte",
+            "incorrect_answers": [
+                "Aplicación",
+                "Internet",
+                "Acceso a la red",
+                "Fisica"
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "¿Por qué es necesario usar TCP/IP?",
+            "correct_answer": "Para estandarizar las tecnologíasynormas para compartir recursos",
+            "incorrect_answers": [
+                "Para la comunicación entre distintos medios fisicos de red",
+                "Para enlazar un mensaje de datos entre protocolos TCPyUDP",
+                "Para garantizar el funcionamiento de todos los protocolos provistos en la internet"
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "¿Para qué nos sirve los números de puertos?",
+            "correct_answer": "Para identificaracada aplicación",
+            "incorrect_answers": [
+                "Para concatenarla con la Mac address en la capa2",
+                "Toda IP tiene que estar acompañada de un puerto",
+                "Los puertos son de uso obligatorio para el estándar ethernet"
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "¿Qué es una PDU?",
+            "correct_answer": "Unidad de datos de protocolo el cual utiliza cada capa del modelo OSI.",
+            "incorrect_answers": [
+                "El protocolo de datagramas de usuario es un protocolo del nivel de transporte basado en la transmisión sin conexión de datagramas",
+                "Representa una alternativa al protocolo TCP",
+                "Es un protocolo de comunicaciones que se utiliza principalmente para establecer conexiones de baja latencia y toleranciaapérdidas entre aplicaciones en Internet"
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "¿Cuáles son las capas inferioresaTCP/IP?",
+            "correct_answer": "Fisico y Internet",
+            "incorrect_answers": [
+                "Fisico y enlace de datos",
+                "Internet y transporte",
+                "Transporte y fisica"
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "¿Dónde se agrega especificamente el parámetro de tiempo de vida(TTL)?",
+            "correct_answer": "En el encabezado de red",
+            "incorrect_answers": [
+                "En la PDU de Transporte",
+                "En la tabla de ruta dentro del switch",
+                "En la DB de los routers"
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "¿Cuáles son las direcciones que lleva el encabezado de red?",
+            "correct_answer": "Dirección fuente de IP y dirección de IP destino",
+            "incorrect_answers": [
+                "Direcciones MAC",
+                "Direcciones de rutas de red",
+                "IP destino y Gateway"
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "¿De qué se encarga el TCP?",
+            "correct_answer": "Se encarga de las tareas de fiabilidad,control de flujo,secuenciamiento,aperturas y cierre.",
+            "incorrect_answers": [
+                "Se encarga de controlar el ruteo de la internetwork dando seguridad al destinatario",
+                "Se encarga de enlazar IP con la Mac address para curso al flujo con el destino",
+                " Se encarga de desencriptar los datos que transporta los bits para entrega controlada."
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "¿Cómo es la forma de envío de información de TCP ?.",
+            "correct_answer": "Envia el tráfico almacenado en forma de segmentosyutiliza números de secuencias para la reordenación en el destino.",
+            "incorrect_answers": [
+                "Fija un tiempo de transmisiónyal no cumplirse con lo esperado retransmite la trama completa.",
+                "Prepara el tráfico de tal forma que garantiza la no retransmisión del paquete",
+                "El envio se basa según el tráfico prioritario por el QoS que esté implementando en la aplicación"
             ]
         }
     ]
