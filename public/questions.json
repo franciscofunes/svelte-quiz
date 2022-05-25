@@ -197,12 +197,12 @@
             "category": "redes",
             "type": "multiple",
             "difficulty": "fácil",
-            "question": "Los protocolos de Capa están diseñados principalmente para mover datos desde una red local a otra red local dentro de una internetwork. Complete con la respuesta correcta.",
-            "correct_answer": "Capa3(red)",
+            "question": "Los protocolos de Capa _______ están diseñados principalmente para mover datos desde una red local a otra red local dentro de una internetwork. Complete con la respuesta correcta.",
+            "correct_answer": "Capa 3 (red)",
             "incorrect_answers": [
-                "Capa4 (transporte)",
-                "Capa2 (enlace de datos)",
-                "Capa1 (fisica)"
+                "Capa 4 (transporte)",
+                "Capa 2 (enlace de datos)",
+                "Capa 1 (fisica)"
             ]
         },
         {
@@ -357,7 +357,7 @@
             "category": "redes",
             "type": "multiple",
             "difficulty": "fácil",
-            "question": "¿Cómo es la forma de envío de información de TCP ?.",
+            "question": "¿Cómo es la forma de envío de información de TCP ?",
             "correct_answer": "Envia el tráfico almacenado en forma de segmentosyutiliza números de secuencias para la reordenación en el destino.",
             "incorrect_answers": [
                 "Fija un tiempo de transmisiónyal no cumplirse con lo esperado retransmite la trama completa.",

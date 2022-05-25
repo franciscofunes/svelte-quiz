@@ -67,7 +67,6 @@
   #choice {
     margin-top: 16px;
     padding: 8px;
-
     border: 1px solid #4e5656;
     border-radius: 8px;
   }
@@ -95,6 +94,14 @@
 
   #score {
     font-size: 38px;
+  }
+
+  #question {
+    font-weight: 800;
+  }
+
+  #choice {
+    font-size: 14px;
   }
 
   @media screen and (max-width: 960px) {
@@ -217,7 +224,7 @@
       Pregunta {questionNo + 1}
       <i id="category">(Categoria - {representation[questionNo].category})</i>
     </span>
-    <span>{representation[questionNo].question}</span>
+    <span id="question">{representation[questionNo].question}</span>
     <div id="difficulty">{representation[questionNo].difficulty}</div>
 
     {#if representation[questionNo].answerChoices}
@@ -282,10 +289,13 @@
         Puntaje Final:
         <i>{score} / 30</i>
       </p>
-      <p style="font-size: 24px">
+      <p style="font-size: 21px">
         {@html finalMessage}
       </p>
-      <p style="font-size: 24px">Refresca el sitio y volve a jugar 🔃</p>
+      <p style="font-size: 21px">
+        Refresca el sitio y volve a jugar
+        <a href="javascript:location.reload(true)">🔃</a>
+      </p>
     </div>
   {:else}
     <span
