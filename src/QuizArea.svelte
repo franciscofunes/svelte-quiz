@@ -108,8 +108,8 @@
     #difficulty {
       top: -16px;
       width:60px;
+      font-size:16px;
       text-align:center;
-      font-size:13px;
     }
     #score {
       font-size: 15px;
