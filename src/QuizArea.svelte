@@ -93,7 +93,7 @@
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
-
+  
     text-align: center;
   }
 
@@ -111,6 +111,7 @@
     }
     #score {
       font-size: 36px;
+      margin-bottom:10px;
     }
   }
 </style>
