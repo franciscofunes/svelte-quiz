@@ -150,11 +150,11 @@
             "type": "multiple",
             "difficulty": "fácil",
             "question": "¿Cuáles son los identificadores en la encapsulación de las PDUs por cada capa del modelo OSI? Ordénelo desde la capa superiorala inferior.",
-            "correct_answer": "Datos.Datos.Datos.Segmentos.Paquetes.Tramas.Bits",
+            "correct_answer": "Datos, Datos, Datos,Segmentos,Paquetes,Tramas, Bits",
             "incorrect_answers": [
-                "Bits.Tramas.Paquetes.Datos.Segmento.Datos.Datos.Datos",
-                "Paquetes.Tramas.Segmentos.Datos.Datos.Datos.Bits",
-                "Datos.Datos.Datos.Paquetes.Segmentos.Trama.Bits"
+                "Bits, Tramas, Paquetes, Datos, Segmento, Datos, Datos, Datos",
+                "Paquetes, Tramas, Segmentos, Datos, Datos, Datos, Bits",
+                "Datos, Datos, Datos, Paquetes, Segmentos, Trama, Bits"
             ]
         },
         {
