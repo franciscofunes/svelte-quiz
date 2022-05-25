@@ -49,8 +49,8 @@
     height: 25px;
     width: 80px;
     padding: 5px;
-    text-transform: capitalize;
-    background: #1b3b6f;
+    text-transform: uppercase;
+    background: purple;
     color: white;
     text-align: center;
     border-radius: 16px;
