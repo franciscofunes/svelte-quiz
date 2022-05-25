@@ -46,10 +46,10 @@
     position: absolute;
     right: 16px;
     top: 16px;
-    height: 25px;
+    height: 30px;
     width: 80px;
     padding: 5px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     background: purple;
     color: white;
     text-align: center;
