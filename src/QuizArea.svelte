@@ -103,7 +103,7 @@
   @media screen and (max-width: 960px) {
     #main {
       width: calc(100vw - 15%);
-      height: calc(100vh - 40%);
+      height: calc(100vh - 30%);
     }
     #difficulty {
       top: -16px;
@@ -112,8 +112,7 @@
       text-align:center;
     }
     #score {
-      font-size: 15px;
-      margin-bottom:80px;
+      font-size: 25px;
     }
   }
 </style>
