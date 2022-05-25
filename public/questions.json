@@ -78,7 +78,7 @@
             "type": "multiple",
             "difficulty": "easy",
             "question": "¿Cuál de las siguientes opciones describe mejor la función de la capa de presentación?",
-            "correct_answer": "Se ocupa de las estructuras de datosyla sintaxis de transferencia de datos de negociación",
+            "correct_answer": "Se ocupa de las estructuras de datos y la sintaxis de transferencia de datos de negociación",
             "incorrect_answers": [
                 "Es responsable de la comunicación confiable de red entre nodos finales",
                 "Proporciona conectividad de selección de rutas entre dos sistemas finales.",
@@ -90,7 +90,7 @@
             "type": "multiple",
             "difficulty": "easy",
             "question": "¿Cuáles son las funciones relacionadas con la capa de enlace de datos?",
-            "correct_answer": "Direccionamiento fisico,Topología de red y acceso a medios",
+            "correct_answer": "Direccionamiento fisico, topología de red y acceso a medios",
             "incorrect_answers": [
                 "Administra el intercambio de datos entre entidades de la capa presente",
                 "Sincroniza aplicaciones que cooperan y establecen acuerdos sobre procedimiento para la recuperación de errores y control de la integración de datos",
