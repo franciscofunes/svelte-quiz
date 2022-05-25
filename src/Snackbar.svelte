@@ -2,7 +2,7 @@
   div {
     height: 50px;
     width: 80px;
-    padding: 0 16px;
+    padding: 0 8px;
     text-align:center;
     line-height: 45px;
     background-color: #4e5656;
