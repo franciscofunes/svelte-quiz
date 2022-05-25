@@ -108,6 +108,18 @@
                 "Cuando la red está trasmitiendo más de un flujo de datos hacia un mismo destino",
                 "Cuando un host destino acumula muchos paquetes sin poder procesar"
             ]
+        },
+{
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "¿Cuándo ocurren los bucles?",
+            "correct_answer": "Cuando una computadoraored recibe el tráfico que emite,este problema crea en la red problemas de caudal efectuando con retardosycongestión",
+            "incorrect_answers": [
+                "Cuando la red está completamente actualizada con todas las rutas activas",
+                "Cuando la red está trasmitiendo más de un flujo de datos hacia un mismo destino",
+                "Cuando un host destino acumula muchos paquetes sin poder procesar"
+            ]
         }
     ]
 }
