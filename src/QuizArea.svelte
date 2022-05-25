@@ -63,7 +63,7 @@
 
   #button-bar {
     position: absolute;
-    bottom: 16px;
+    bottom: 10px;
     right: 0;
   }
 
