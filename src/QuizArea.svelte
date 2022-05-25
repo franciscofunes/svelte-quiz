@@ -7,11 +7,9 @@
     height: calc(100vh - 40%);
     width: calc(100vw - 40%);
     padding: 15px;
-
     background-color: white;
     border-radius: 6px;
     box-shadow: 0 0 5px white;
-
     text-align: left;
   }
 
@@ -25,7 +23,6 @@
     margin-right: 15px;
     padding: 10px;
     float: right;
-
     color: white;
     background-color: #16302b;
     border: none;
@@ -108,7 +105,7 @@
     #difficulty {
       top: -16px;
       width: 60px;
-      font-size: 14px;
+      font-size: 17px;
       text-align: center;
     }
     #score {
