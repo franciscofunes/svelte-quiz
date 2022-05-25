@@ -100,7 +100,7 @@
   @media screen and (max-width: 960px) {
     #main {
       width: calc(100vw - 15%);
-      height: calc(100vh - 35%);
+      height: calc(100vh - 38%);
     }
     #difficulty {
       top: -16px;
@@ -280,7 +280,7 @@
     <div id="results">
       <p id="score">
         Puntaje Final:
-        <i>{score} / 28</i>
+        <i>{score} / 30</i>
       </p>
       <p style="font-size: 24px">
         {@html finalMessage}
