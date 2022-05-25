@@ -103,7 +103,7 @@
   @media screen and (max-width: 960px) {
     #main {
       width: calc(100vw - 15%);
-      height: calc(100vh - 30%);
+      height: calc(100vh - 35%);
     }
     #difficulty {
       top: -16px;
