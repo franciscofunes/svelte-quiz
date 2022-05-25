@@ -46,7 +46,7 @@
     position: absolute;
     right: 16px;
     top: 16px;
-    height: 20px;
+    height: 24px;
     width: 80px;
     padding: 5px;
     text-transform: capitalize;
@@ -107,9 +107,9 @@
     }
     #difficulty {
       top: -16px;
-      width:60px;
-      font-size:16px;
-      text-align:center;
+      width: 60px;
+      font-size: 14px;
+      text-align: center;
     }
     #score {
       font-size: 25px;
