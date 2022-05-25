@@ -277,8 +277,6 @@
         <Snackbar message={snackbarMessage} />
       </div>
     {/if}
-  {:else if answeredQuestions === 10}
-    <p>Finalizó respuestas</p>
   {:else if resultsScreen}
     <div id="results">
       <p id="score">
