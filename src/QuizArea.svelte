@@ -108,11 +108,11 @@
     }
     #difficulty {
       top: -16px;
-      width:20px;
+      width:30px;
     }
     #score {
-      font-size: 36px;
-      margin-bottom:30px;
+      font-size: 30px;
+      margin-bottom:50px;
     }
   }
 </style>
