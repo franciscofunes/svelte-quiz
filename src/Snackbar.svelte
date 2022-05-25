@@ -1,18 +1,17 @@
 <style>
   div {
-    height: 48px;
-    width: 100px;
+    height: 50px;
+    width: 80px;
     padding: 0 16px;
-
+    text-align:center;
     line-height: 45px;
     background-color: #4e5656;
     border-radius: 5px;
-
     box-shadow: 0 0 5px #4e5656;
   }
 
   span {
-    font-size: 16px;
+    font-size: 14px;
     color: white;
   }
 </style>
