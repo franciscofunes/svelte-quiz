@@ -287,7 +287,7 @@
       <p style="font-size: 24px">
         {@html finalMessage}
       </p>
-      <p style="font-size: 24px">Refresca el sitio y volver a jugar</p>
+      <p style="font-size: 24px">Refresca el sitio y volve a jugar 🔃</p>
     </div>
   {:else}
     <span
