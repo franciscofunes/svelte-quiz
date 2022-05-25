@@ -6,7 +6,7 @@
             "type": "multiple",
             "difficulty": "hard",
             "question": "¿Que es un Estándar en una red interoperativa?",
-            "correct_answer": "La normalización de protocolos y dispositivos para que pueda ser utilizadaocreada sin ningún inconveniente.",
+            "correct_answer": "La normalización de protocolos y dispositivos para que pueda ser utilizada o creada sin ningún inconveniente.",
             "incorrect_answers": [
                 "La conexión de redes con un mismo fabricante de hardware",
                 "La interpretación de varios protocolos propietarios de Cisco para dar servicio únicamente en sus plataformas",
