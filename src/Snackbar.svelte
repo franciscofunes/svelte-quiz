@@ -1,7 +1,7 @@
 <style>
   div {
     height: 48px;
-    width: 344px;
+    width: 100px;
     padding: 0 16px;
 
     line-height: 45px;
@@ -23,10 +23,10 @@
 
 {#if message}
   <div style="background-color: green; box-shadow: 0 0 5px green;">
-    <span>Correct Answer</span>
+    <span>Correcto</span>
   </div>
 {:else}
   <div style="background-color: red; box-shadow: 0 0 5px red;">
-    <span>Incorrect Answer</span>
+    <span>Incorrecto</span>
   </div>
 {/if}
