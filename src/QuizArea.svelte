@@ -49,7 +49,7 @@
     height: 25px;
     width: 80px;
     padding: 5px;
-
+    text-transform: capitalize;
     background: #1b3b6f;
     color: white;
     text-align: center;
@@ -107,11 +107,11 @@
     }
     #difficulty {
       top: -16px;
-      width:40px;
+      width:45px;
     }
     #score {
-      font-size: 20px;
-      margin-bottom:50px;
+      font-size: 15px;
+      margin-bottom:80px;
     }
   }
 </style>
