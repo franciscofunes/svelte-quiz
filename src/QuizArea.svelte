@@ -107,7 +107,9 @@
     }
     #difficulty {
       top: -16px;
-      width:45px;
+      width:60px;
+      text-align:center;
+      font-size:13px;
     }
     #score {
       font-size: 15px;
