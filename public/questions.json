@@ -90,7 +90,7 @@
             "type": "multiple",
             "difficulty": "fácil",
             "question": "¿Cuáles son las funciones relacionadas con la capa de enlace de datos?",
-            "correct_answer": "Direccionamiento fisico, topología de red y acceso a medios",
+            "correct_answer": "Direccionamiento físico, topología de red y acceso a medios",
             "incorrect_answers": [
                 "Administra el intercambio de datos entre entidades de la capa presente",
                 "Sincroniza aplicaciones que cooperan y establecen acuerdos sobre procedimiento para la recuperación de errores y control de la integración de datos",
@@ -185,7 +185,7 @@
             "category": "redes",
             "type": "multiple",
             "difficulty": "fácil",
-            "question": "Seleccione la respuesta correcta de la siguiente definición:Es el paquete de respuesta del Servidor DHCP a un cliente DHCP ante su petición de la asignación de los parámetros DHCP. Para ello involucra su dirección MAC (Media Access Control) para su presentacióneinicio de transferencia de modo seguro.",
+            "question": "Seleccione la respuesta correcta de la siguiente definición:Es el paquete de respuesta del Servidor DHCP a un cliente DHCP ante su petición de la asignación de los parámetros DHCP. Para ello involucra su dirección MAC (Media Access Control) para su presentación e inicio de transferencia de modo seguro.",
             "correct_answer": "DHCP OFFER",
             "incorrect_answers": [
                 "DHCP REQUEST",
