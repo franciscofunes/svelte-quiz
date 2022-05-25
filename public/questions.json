@@ -29,7 +29,7 @@
             "category": "redes",
             "type": "multiple",
             "difficulty": "medium",
-            "question": "¿Cuál es la capa que proporciona envío de datos,clase de servicioyenvío de excepciones?",
+            "question": "¿Cuál es la capa que proporciona envío de datos,clase de servicio y envío de excepciones?",
             "correct_answer": "Sesion",
             "incorrect_answers": [
                 "Presentación",
@@ -65,7 +65,7 @@
             "category": "redes",
             "type": "multiple",
             "difficulty": "medium",
-            "question": "¿Cuál es la capa del modelo OSI que es responsable de la comunicación de red confiable entre nodos confiables y proporciona mecanismos para establecer,mantener y terminar circuitos virtuales,detección y recuperación de fallas de transporteycontrol de flujo de la información ?",
+            "question": "¿Cuál es la capa del modelo OSI que es responsable de la comunicación de red confiable entre nodos confiables y proporciona mecanismos para establecer,mantener y terminar circuitos virtuales,detección y recuperación de fallas de transporte y control de flujo de la información ?",
             "correct_answer": "Transporte",
             "incorrect_answers": [
                 "Fisica",
@@ -102,7 +102,7 @@
             "type": "multiple",
             "difficulty": "easy",
             "question": "¿Cuándo ocurren los bucles?",
-            "correct_answer": "Cuando una computadoraored recibe el tráfico que emite,este problema crea en la red problemas de caudal efectuando con retardosycongestión",
+            "correct_answer": "Cuando una computadora o red recibe el tráfico que emite,este problema crea en la red problemas de caudal efectuando con retardos y congestión",
             "incorrect_answers": [
                 "Cuando la red está completamente actualizada con todas las rutas activas",
                 "Cuando la red está trasmitiendo más de un flujo de datos hacia un mismo destino",
@@ -114,7 +114,7 @@
             "type": "multiple",
             "difficulty": "easy",
             "question": "¿Cuándo ocurren los bucles?",
-            "correct_answer": "Cuando una computadoraored recibe el tráfico que emite,este problema crea en la red problemas de caudal efectuando con retardosycongestión",
+            "correct_answer": "Cuando una computadoraored recibe el tráfico que emite,este problema crea en la red problemas de caudal efectuando con retardos y congestión",
             "incorrect_answers": [
                 "Cuando la red está completamente actualizada con todas las rutas activas",
                 "Cuando la red está trasmitiendo más de un flujo de datos hacia un mismo destino",
