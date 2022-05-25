@@ -190,7 +190,7 @@
         snackbarMessage = false;
       }
 
-      if (questionNo === 27) {
+      if (questionNo === 29) {
         buttonBarVisibility = false;
         resultsScreen = true;
 
@@ -258,7 +258,7 @@
 
     {#if buttonBarVisibility}
       <div id="button-bar">
-        {#if questionNo < 27}
+        {#if questionNo < 29}
           <button value="Next" on:click={() => handleClick('f')}>
             Siguiente
           </button>

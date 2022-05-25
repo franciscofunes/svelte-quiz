@@ -209,7 +209,7 @@
             "category": "redes",
             "type": "multiple",
             "difficulty": "fácil",
-            "question": "UDP(protocolo de datagramas de usuario)permite ...",
+            "question": "UDP (protocolo de datagramas de usuario) permite ...",
             "correct_answer": "Transmisión de datos sin conexión en redes basadas en IP.",
             "incorrect_answers": [
                 "Enlaza una MAC con un servidor DHCP",
@@ -236,7 +236,7 @@
             "category": "redes",
             "type": "multiple",
             "difficulty": "fácil",
-            "question": "_________ admite el reenvio de un segmento de comunicación entre distintos dispositivos de distintas redes ..",
+            "question": "_________ admite el reenvío de un segmento de comunicación entre distintos dispositivos de distintas redes ..",
             "correct_answer": "Transporte",
             "incorrect_answers": [
                 "Aplicación",
@@ -273,12 +273,36 @@
             "category": "redes",
             "type": "multiple",
             "difficulty": "fácil",
+            "question": "¿Cuál es el propósito principal de un Gateway (salto de ruta)?",
+            "correct_answer": "Recibir una PDU que contenga información de direccionamiento suficiente para que se pueda encaminar hacia su destino finalohasta la pasarela siguiente.",
+            "incorrect_answers": [
+                "Dar información necesaria para que funcione el DHCP entre otros protocolos del TCP/IP",
+                "Recibir PDUs que contenga información de cada una de las capas del modelo OSI para el traslado del mensaje",
+                "Tener la información de la IP con Mac address local para poder trasmitir información hacia un destino especifico."
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
             "question": "¿Qué es una PDU?",
             "correct_answer": "Unidad de datos de protocolo el cual utiliza cada capa del modelo OSI.",
             "incorrect_answers": [
                 "El protocolo de datagramas de usuario es un protocolo del nivel de transporte basado en la transmisión sin conexión de datagramas",
                 "Representa una alternativa al protocolo TCP",
                 "Es un protocolo de comunicaciones que se utiliza principalmente para establecer conexiones de baja latencia y toleranciaapérdidas entre aplicaciones en Internet"
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "¿Cuáles son algunas funciones del nivel de aplicación?",
+            "correct_answer": "Acceso a la base de datos,correo electrónico y gestión de archivos",
+            "incorrect_answers": [
+                "Compresión de datos y segmentación",
+                "Establecer como se va a comunicar los datos con el exterior",
+                "Indica que tipo de dato está recibiendo de la capa superior"
             ]
         },
         {
