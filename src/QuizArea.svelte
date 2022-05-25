@@ -277,27 +277,25 @@
         <Snackbar message={snackbarMessage} />
       </div>
     {/if}
-    <!-- Uncomment this if you want the user to go back and answer pending questions
       {:else if answeredQuestions === 10}
-      <p>All answered</p>
-    -->
+      <p>Finalizó respuestas</p>
   {:else if resultsScreen}
     <div id="results">
       <p id="score">
-        Final Score:
+        Puntaje Final:
         <i>{score} / 10</i>
       </p>
       <p style="font-size: 24px">
         {@html finalMessage}
       </p>
-      <p style="font-size: 24px">Refresh the page to play again</p>
+      <p style="font-size: 24px">Refresca el sitio y volver a jugar</p>
     </div>
   {:else}
     <span
       style="position: absolute; left: 50%; top: 50%; transform:
       translateX(-50%) translateY(-50%); font-weight: bolder; font-size: 36px;
       margin: 0">
-      Fetching questions...
+      Cargando preguntas...
     </span>
   {/if}
 
