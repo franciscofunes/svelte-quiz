@@ -137,7 +137,7 @@
             "category": "redes",
             "type": "multiple",
             "difficulty": "fácil",
-            "question": "En el modelo TCP/IP, ¿Cuál es la capa que ocupa la confiabilidad,control de flujo y corrección de errores?",
+            "question": "En el modelo TCP/IP, ¿Cuál es la capa que ocupa la confiabilidad, control de flujo y corrección de errores?",
             "correct_answer": "Transporte",
             "incorrect_answers": [
                 "Aplicación",
@@ -150,11 +150,11 @@
             "type": "multiple",
             "difficulty": "fácil",
             "question": "¿Cuáles son los identificadores en la encapsulación de las PDUs por cada capa del modelo OSI? Ordénelo desde la capa superiorala inferior.",
-            "correct_answer": "Datos.Datos.Datos Segmentos.Paquetes.Tramas.Bits",
+            "correct_answer": "Datos.Datos.Datos.Segmentos.Paquetes.Tramas.Bits",
             "incorrect_answers": [
                 "Bits.Tramas.Paquetes.Datos.Segmento.Datos.Datos.Datos",
                 "Paquetes.Tramas.Segmentos.Datos.Datos.Datos.Bits",
-                "Datos Datos.Datos Paquetes.Segmentos.Trama.Bits"
+                "Datos.Datos.Datos.Paquetes.Segmentos.Trama.Bits"
             ]
         },
         {
@@ -185,7 +185,7 @@
             "category": "redes",
             "type": "multiple",
             "difficulty": "fácil",
-            "question": "Seleccione la respuesta correcta de la siguiente definición:Es el paquete de respuesta del Servidor DHCPaun cliente DHCP ante su petición de la asignación de los parámetros DHCP.Para ello involucra su dirección MAC(Media Access Control)para su presentacióneinicio de transferencia de modo seguro.",
+            "question": "Seleccione la respuesta correcta de la siguiente definición:Es el paquete de respuesta del Servidor DHCP a un cliente DHCP ante su petición de la asignación de los parámetros DHCP. Para ello involucra su dirección MAC (Media Access Control) para su presentacióneinicio de transferencia de modo seguro.",
             "correct_answer": "DHCP OFFER",
             "incorrect_answers": [
                 "DHCP REQUEST",
@@ -197,12 +197,12 @@
             "category": "redes",
             "type": "multiple",
             "difficulty": "fácil",
-            "question": "Los protocolos de Capa están diseñados principalmente para mover datos desde una red localaotra red local dentro de una internetwork.Complete con la respuesta correcta.",
+            "question": "Los protocolos de Capa están diseñados principalmente para mover datos desde una red local a otra red local dentro de una internetwork. Complete con la respuesta correcta.",
             "correct_answer": "Capa3(red)",
             "incorrect_answers": [
-                "Capa4(transporte)",
-                "Capa2(enlace de datos)",
-                "Capa1(fisica)"
+                "Capa4 (transporte)",
+                "Capa2 (enlace de datos)",
+                "Capa1 (fisica)"
             ]
         },
         {
@@ -221,7 +221,7 @@
             "category": "redes",
             "type": "multiple",
             "difficulty": "fácil",
-            "question": "Cuales capas del modelo OSI son las equivalentesala capa Física del modelo TCP/IP? (pueden ser varias correctas).",
+            "question": "¿Cuáles capas del modelo OSI son las equivalentes a la capa Física del modelo TCP/IP? (pueden ser varias correctas).",
             "correct_answer": [
                 "Fisica y enlace de datos"
             ],
@@ -250,10 +250,10 @@
             "type": "multiple",
             "difficulty": "fácil",
             "question": "¿Por qué es necesario usar TCP/IP?",
-            "correct_answer": "Para estandarizar las tecnologíasynormas para compartir recursos",
+            "correct_answer": "Para estandarizar las tecnologías y normas para compartir recursos",
             "incorrect_answers": [
                 "Para la comunicación entre distintos medios fisicos de red",
-                "Para enlazar un mensaje de datos entre protocolos TCPyUDP",
+                "Para enlazar un mensaje de datos entre protocolos TCP y UDP",
                 "Para garantizar el funcionamiento de todos los protocolos provistos en la internet"
             ]
         },
@@ -264,7 +264,7 @@
             "question": "¿Para qué nos sirve los números de puertos?",
             "correct_answer": "Para identificaracada aplicación",
             "incorrect_answers": [
-                "Para concatenarla con la Mac address en la capa2",
+                "Para concatenarla con la Mac address en la capa 2",
                 "Toda IP tiene que estar acompañada de un puerto",
                 "Los puertos son de uso obligatorio para el estándar ethernet"
             ]
@@ -285,7 +285,7 @@
             "category": "redes",
             "type": "multiple",
             "difficulty": "fácil",
-            "question": "¿Cuáles son las capas inferioresaTCP/IP?",
+            "question": "¿Cuáles son las capas inferiores a TCP/IP?",
             "correct_answer": "Fisico y Internet",
             "incorrect_answers": [
                 "Fisico y enlace de datos",
@@ -297,7 +297,7 @@
             "category": "redes",
             "type": "multiple",
             "difficulty": "fácil",
-            "question": "¿Dónde se agrega especificamente el parámetro de tiempo de vida(TTL)?",
+            "question": "¿Dónde se agrega especificamente el parámetro de tiempo de vida (TTL)?",
             "correct_answer": "En el encabezado de red",
             "incorrect_answers": [
                 "En la PDU de Transporte",
@@ -326,7 +326,7 @@
             "incorrect_answers": [
                 "Se encarga de controlar el ruteo de la internetwork dando seguridad al destinatario",
                 "Se encarga de enlazar IP con la Mac address para curso al flujo con el destino",
-                " Se encarga de desencriptar los datos que transporta los bits para entrega controlada."
+                "Se encarga de desencriptar los datos que transporta los bits para entrega controlada."
             ]
         },
         {
