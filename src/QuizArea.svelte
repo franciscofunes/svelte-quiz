@@ -93,12 +93,11 @@
     left: 50%;
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
-  
     text-align: center;
   }
 
   #score {
-    font-size: 48px;
+    font-size: 38px;
   }
 
   @media screen and (max-width: 960px) {
@@ -108,10 +107,10 @@
     }
     #difficulty {
       top: -16px;
-      width:30px;
+      width:40px;
     }
     #score {
-      font-size: 30px;
+      font-size: 20px;
       margin-bottom:50px;
     }
   }
