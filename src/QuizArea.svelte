@@ -46,7 +46,7 @@
     position: absolute;
     right: 16px;
     top: 16px;
-    height: 30px;
+    height: 20px;
     width: 80px;
     padding: 5px;
     text-transform: capitalize;
