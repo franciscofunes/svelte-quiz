@@ -29,7 +29,7 @@
             "category": "redes",
             "type": "multiple",
             "difficulty": "media",
-            "question": "¿Cuál es la capa que proporciona envío de datos,clase de servicio y envío de excepciones?",
+            "question": "¿Cuál es la capa que proporciona envío de datos, clase de servicio y envío de excepciones?",
             "correct_answer": "Sesion",
             "incorrect_answers": [
                 "Presentación",
