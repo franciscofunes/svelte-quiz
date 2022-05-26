@@ -222,9 +222,7 @@
             "type": "multiple",
             "difficulty": "fácil",
             "question": "¿Cuáles capas del modelo OSI son las equivalentes a la capa Física del modelo TCP/IP? (pueden ser varias correctas).",
-            "correct_answer": [
-                "Fisica y enlace de datos"
-            ],
+            "correct_answer": "Fisica y enlace de datos",
             "incorrect_answers": [
                 "Internet y transporte",
                 "Transporte y red",
@@ -274,7 +272,7 @@
             "type": "multiple",
             "difficulty": "fácil",
             "question": "¿Cuál es el propósito principal de un Gateway (salto de ruta)?",
-            "correct_answer": "Recibir una PDU que contenga información de direccionamiento suficiente para que se pueda encaminar hacia su destino finalohasta la pasarela siguiente.",
+            "correct_answer": "Recibir una PDU que contenga información de direccionamiento suficiente para que se pueda encaminar hacia su destino final o hasta la pasarela siguiente.",
             "incorrect_answers": [
                 "Dar información necesaria para que funcione el DHCP entre otros protocolos del TCP/IP",
                 "Recibir PDUs que contenga información de cada una de las capas del modelo OSI para el traslado del mensaje",
