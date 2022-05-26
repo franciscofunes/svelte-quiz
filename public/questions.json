@@ -185,7 +185,7 @@
             "category": "redes",
             "type": "multiple",
             "difficulty": "fácil",
-            "question": "Seleccione la respuesta correcta de la siguiente definición: "Es el paquete de respuesta del Servidor DHCP a un cliente DHCP ante su petición de la asignación de los parámetros DHCP. Para ello involucra su dirección MAC (Media Access Control) para su presentación e inicio de transferencia de modo seguro.",
+            "question": "Seleccione la respuesta correcta de la siguiente definición: 'Es el paquete de respuesta del Servidor DHCP a un cliente DHCP ante su petición de la asignación de los parámetros DHCP. Para ello involucra su dirección MAC (Media Access Control) para su presentación e inicio de transferencia de modo seguro.'",
             "correct_answer": "DHCP OFFER",
             "incorrect_answers": [
                 "DHCP REQUEST",
