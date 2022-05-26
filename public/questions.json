@@ -65,7 +65,7 @@
             "category": "redes",
             "type": "multiple",
             "difficulty": "Media",
-            "question": "¿Cuál es la capa del modelo OSI que es responsable de la comunicación de red confiable entre nodos confiables y proporciona mecanismos para establecer,mantener y terminar circuitos virtuales,detección y recuperación de fallas de transporte y control de flujo de la información ?",
+            "question": "¿Cuál es la capa del modelo OSI que es responsable de la comunicación de red confiable entre nodos confiables y proporciona mecanismos para establecer, mantener y terminar circuitos virtuales,detección y recuperación de fallas de transporte y control de flujo de la información?",
             "correct_answer": "Transporte",
             "incorrect_answers": [
                 "Fisica",
@@ -113,7 +113,7 @@
             "category": "redes",
             "type": "multiple",
             "difficulty": "fácil",
-            "question": "¿Cuál de las siguientes afirmaciones con respectoaTCP/IP es correcta?",
+            "question": "¿Cuál de las siguientes afirmaciones con respecto a TCP/IP es correcta?",
             "correct_answer": "Combina la capa de enlace de datos y la capa fisica del modelo OSI en una sola capa",
             "incorrect_answers": [
                 "Combina las funciones de la capa de enlace de datos y de sesión del modelo OSI en una capa de aplicación",
