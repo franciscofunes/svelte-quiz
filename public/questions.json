@@ -356,11 +356,47 @@
             "type": "multiple",
             "difficulty": "fácil",
             "question": "¿Cómo es la forma de envío de información de TCP ?",
-            "correct_answer": "Envia el tráfico almacenado en forma de segmentosyutiliza números de secuencias para la reordenación en el destino.",
+            "correct_answer": "Envia el tráfico almacenado en forma de segmentos y utiliza números de secuencias para la reordenación en el destino.",
             "incorrect_answers": [
-                "Fija un tiempo de transmisiónyal no cumplirse con lo esperado retransmite la trama completa.",
+                "Fija un tiempo de transmisión y al no cumplirse con lo esperado retransmite la trama completa.",
                 "Prepara el tráfico de tal forma que garantiza la no retransmisión del paquete",
                 "El envio se basa según el tráfico prioritario por el QoS que esté implementando en la aplicación"
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "Un registro de recurso de DNS es 'autoritativo':",
+            "correct_answer": "Si un determinador servidor tiene registros de recursos que correspondan a su nivel en la jerarquía de dominios",
+            "incorrect_answers": [
+                "Si un registro de recursos es consultado por todos los níveles del sistema jerárquico.",
+                "Si un determinado servidor de recursos tiene registros distribuidos en toda la red",
+                "si un registro de recursos tiene todos los derechos para ser consultados"
+            ]
+        },
+        {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "¿Cuál de los siguientes puertos TCP utiliza el FTP para el establecimiento de conexión y control?",
+            "correct_answer": "21",
+            "incorrect_answers": [
+                "20",
+                "20 y 21",
+                "El apicativo FTP puede tomar cualquiera de los puertos mencionados"
+            ]
+        },
+                {
+            "category": "redes",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "¿Cuál es el comando particularmente diseñado para ver el servidor DNS configurado (nombre/IP) por defecto para su host",
+            "correct_answer": "nslookup",
+            "incorrect_answers": [
+                "ping",
+                "IPConfig",
+                "named"
             ]
         }
     ]
